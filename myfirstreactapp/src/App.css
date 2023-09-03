@@ -3,8 +3,9 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'optima';
   text-align: center;
+  background-color: rgb(255, 255, 255);
 }
 
 body{
@@ -12,15 +13,3 @@ body{
   margin: 0;
 }
 
-h1{
-  font-size: 40px;
-}
-
-img {
-  display: flex;
-  width: 800px;
-  height: 535px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-}

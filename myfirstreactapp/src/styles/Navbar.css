@@ -1,9 +1,11 @@
 .navbar {
     width: 100%;
     height: 100px;
-    background-color: #d88ef5;
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
+    border-bottom: .5px solid black;
+
 }
 
 .navbar .leftSide {
@@ -15,7 +17,10 @@
 }
   
 .navbar .leftSide img {
-    width: 70px;
+    width: 450px;
+    position:absolute;
+    left: 3%;
+    top:.5%;
 }
   
 .navbar .rightSide {
@@ -27,16 +32,36 @@
 }
 
 .navbar a {
-    color: white;
+    position: relative;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin: 40px;
+    transition: color 0.3s ease; /* Added transition effect for smooth hover */
+    
+  }
+
+  .navbar a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Adjust the desired thickness of the outline */
+    background-color: rgb(170, 170, 245); /* Color of the outline */
+    transform: scaleX(0); /* Initially hidden */
+    transform-origin: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar a:hover::after {
+    transform: scaleX(1); /* Display the outline on hover */
   }
 
   
   .navbar .rightSide button {
     background-color: transparent;
     border: none;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
   }
   
@@ -47,9 +72,7 @@
   .navbar #open {
     padding-left: 0px;
   }
-  .navbar #open img {
-    display: none;
-  }
+  
   
   .navbar #close img {
     display: inherit;
@@ -62,9 +85,10 @@
     line-height: 1.5;
     top:90px;
     width: 300px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(129, 129, 129, 0.1);
     backdrop-filter: blur(50px);
     list-style-type: none;
+    z-index: 2;
   }
   
   .navbar #close .hiddenLinks {
@@ -84,7 +108,7 @@
     }
   }
   
-  @media only screen and (max-width: 920px) {
+  @media only screen and (max-width: 1150px) {
     .navbar .rightSide a {
       display: none;
     }
@@ -99,7 +123,7 @@
     }
   }
   
-  @media only screen and (min-width: 920px) {
+  @media only screen and (min-width: 1150px) {
     .navbar .rightSide button {
       display: none;
     }

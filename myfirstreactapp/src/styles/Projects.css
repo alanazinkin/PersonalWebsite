@@ -1,0 +1,176 @@
+
+h4{
+    display: none;
+    font-size: 40px;
+}
+  .proj1 {
+    display: flex;
+    justify-content: center;
+    height: 350px; 
+  }
+  
+  .rectangle1 {
+    background-color: #f2deff;
+    padding: 40px;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .text1 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+
+    border: 1px solid #000000; /* Add a 2px solid black border around the text */
+    padding: 20px; /* Add padding inside the box to create space between the text and the border */
+    border-radius: 50px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6px 6px 1px rgb(0, 0, 0);
+  }
+
+.proj1image{
+  margin-left: -10%;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    transition: box-shadow 0.3s ease; /* Added transition effect for smooth hover */
+    border: 2px solid rgb(191, 185, 185);
+
+    border: 1px solid #000000; /* Add a 2px solid black border around the text */
+    padding: 10px; /* Add padding inside the box to create space between the text and the border */
+    border-radius: 50px;
+    background-color: rgba(94, 7, 128, 0.825);
+    box-shadow: 6px 6px 1px rgb(0, 0, 0);
+    }
+
+.proj1image:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    }
+
+.paragraph1{
+    font-size: 20px; 
+    color: black; 
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+
+.proj3 {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+  }
+  
+  .rectangle3 {
+    background-color: #185a58;
+    padding: 40px;
+    padding-bottom: 9%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .text3 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+
+    border: 1px solid #000000; /* Add a 2px solid black border around the text */
+    padding: 20px; /* Add padding inside the box to create space between the text and the border */
+    border-radius: 50px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6px 6px 1px rgb(0, 0, 0);
+
+  }
+
+.proj3image{
+    margin-left: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    transition: box-shadow 0.3s ease; /* Added transition effect for smooth hover */
+
+    border: 1px solid #000000; /* Add a 2px solid black border around the text */
+    padding: 10px; /* Add padding inside the box to create space between the text and the border */
+    border-radius: 50px;
+    background-color: rgb(90, 144, 138);
+    box-shadow: 6px 6px 1px rgb(0, 0, 0);
+    }
+
+.proj3image:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    }
+
+.paragraph3{
+    font-size: 20px; 
+    color: rgb(255, 255, 255); 
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+  
+
+.proj2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; 
+}
+  
+  .rectangle2 {
+
+    background-color: #66277e;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 9%;
+    border: 1px solid black;
+  }
+  
+  .text2 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+
+    border: 1px solid #000000; /* Add a 2px solid black border around the text */
+    padding: 20px; /* Add padding inside the box to create space between the text and the border */
+    border-radius: 50px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6px 6px 1px rgb(0, 0, 0);
+  }
+
+ .portfolioimg{
+    margin-left: auto;
+    width: 90%;
+    height: auto;
+    border-radius: 30px;
+    transition: box-shadow 0.3s ease;
+    
+    border: 1px solid #000000; /* Add a 2px solid black border around the text */
+    padding: 10px; /* Add padding inside the box to create space between the text and the border */
+    border-radius: 50px;
+    background-color: rgba(218, 155, 241, 0.825);
+    box-shadow: 6px 6px 1px rgb(0, 0, 0);
+  }
+  .portfolioimg:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Added box-shadow effect on hover */
+  }
+
+  .paragraph2{
+    font-size: 20px; 
+    color: rgb(255, 255, 255); 
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+
+  .paragraph21{
+    font-size: 20px; 
+    color: rgb(255, 255, 255); 
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+  

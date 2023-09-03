@@ -1,0 +1,61 @@
+.aboutmetext {
+    position: relative;
+    min-height: 100vh;
+    background-color: rgb(229, 220, 255);
+    padding: 20px;
+}
+
+h5 {
+    position: relative; 
+    font-size: 2rem; 
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-top: 18px;
+
+    border: 1px solid #000000;
+    width: 350px; 
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 6px 6px 1px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.aboutmep1,
+.aboutmep2,
+.aboutmep3,
+.aboutmep4 {
+    position: relative; /* Change to relative positioning */
+    font-size: 1.5rem; /* Use rem units for font size */
+    color: white;
+    margin-bottom: 20px; /* Add spacing between elements */
+    padding: 20px; /* Add padding inside the box */
+    border: 1px solid #000000;
+    border-radius: 50px;
+    box-shadow: 6px 6px 1px rgb(0, 0, 0);
+}
+
+.aboutmep1 {
+    background-color: rgb(18, 50, 44);
+}
+
+.aboutmep2 {
+    background-color: rgba(32, 91, 77, 0.92);
+}
+
+.aboutmep3 {
+    background-color: rgba(34, 96, 81, 0.73);
+}
+
+.aboutmep4 {
+    background-color: rgba(94, 7, 128, 0.825);
+}
+
+@media (max-width: 900px) {
+    h5,
+    .aboutmep1,
+    .aboutmep2,
+    .aboutmep3,
+    .aboutmep4 {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+}
