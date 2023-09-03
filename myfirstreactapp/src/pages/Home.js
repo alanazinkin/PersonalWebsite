@@ -13,7 +13,6 @@ function Home() {
        
           <h2>I actually built this website myself using React.js and Javascript!</h2>
           </div>
-          
 
             <p className='p1'>I’m passionate about improving access to efficient and high-quality healthcare
              for everyone through advancements in medical technology. At Duke, I serve as DTech’s HealthTech
