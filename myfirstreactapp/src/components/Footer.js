@@ -22,7 +22,7 @@ function Footer() {
           <MailOutlineIcon />
         </span>
         
-        <p>&copy; 2023 alanazinkin.com</p>
+        <p>&copy; 2023 alanazinkin.github.io/PersonalWebsite/</p>
         </div>
     </div>
   )
