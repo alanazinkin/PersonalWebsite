@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.83942906.css",
-    "main.js": "/PersonalWebsite/static/js/main.1ad5fcef.js",
+    "main.css": "/PersonalWebsite/static/css/main.d9a62cff.css",
+    "main.js": "/PersonalWebsite/static/js/main.43cff9ba.js",
     "static/js/787.626a797b.chunk.js": "/PersonalWebsite/static/js/787.626a797b.chunk.js",
     "static/media/APPortfolio.pdf": "/PersonalWebsite/static/media/APPortfolio.7276de148ee40b1cacca.pdf",
     "static/media/FINALheadshotJuly2023.jpg": "/PersonalWebsite/static/media/FINALheadshotJuly2023.6b1cd336162839f89068.jpg",
@@ -12,12 +12,12 @@
     "static/media/DukeIE_DSV_NewColors2023_transparent.png": "/PersonalWebsite/static/media/DukeIE_DSV_NewColors2023_transparent.0d831c1092de797f1940.png",
     "static/media/dukeCSLogo.png": "/PersonalWebsite/static/media/dukeCSLogo.3ab0709eb2483c545abc.png",
     "index.html": "/PersonalWebsite/index.html",
-    "main.83942906.css.map": "/PersonalWebsite/static/css/main.83942906.css.map",
-    "main.1ad5fcef.js.map": "/PersonalWebsite/static/js/main.1ad5fcef.js.map",
+    "main.d9a62cff.css.map": "/PersonalWebsite/static/css/main.d9a62cff.css.map",
+    "main.43cff9ba.js.map": "/PersonalWebsite/static/js/main.43cff9ba.js.map",
     "787.626a797b.chunk.js.map": "/PersonalWebsite/static/js/787.626a797b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83942906.css",
-    "static/js/main.1ad5fcef.js"
+    "static/css/main.d9a62cff.css",
+    "static/js/main.43cff9ba.js"
   ]
 }
