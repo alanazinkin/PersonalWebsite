@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PersonalWebsite/static/css/main.83942906.css",
-    "main.js": "/PersonalWebsite/static/js/main.4cfefe28.js",
+    "main.js": "/PersonalWebsite/static/js/main.1448d019.js",
     "static/js/787.626a797b.chunk.js": "/PersonalWebsite/static/js/787.626a797b.chunk.js",
     "static/media/PhotoPortfolio.pdf": "/PersonalWebsite/static/media/PhotoPortfolio.7b98db5b7ff3df7e0da6.pdf",
     "static/media/FINALheadshotJuly2023.jpg": "/PersonalWebsite/static/media/FINALheadshotJuly2023.6b1cd336162839f89068.jpg",
@@ -13,11 +13,11 @@
     "static/media/dukeCSLogo.png": "/PersonalWebsite/static/media/dukeCSLogo.3ab0709eb2483c545abc.png",
     "index.html": "/PersonalWebsite/index.html",
     "main.83942906.css.map": "/PersonalWebsite/static/css/main.83942906.css.map",
-    "main.4cfefe28.js.map": "/PersonalWebsite/static/js/main.4cfefe28.js.map",
+    "main.1448d019.js.map": "/PersonalWebsite/static/js/main.1448d019.js.map",
     "787.626a797b.chunk.js.map": "/PersonalWebsite/static/js/787.626a797b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83942906.css",
-    "static/js/main.4cfefe28.js"
+    "static/js/main.1448d019.js"
   ]
 }

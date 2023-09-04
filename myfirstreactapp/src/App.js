@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 import './App.css';
 import About from './pages/About';
 import Resume from './pages/Resume';
@@ -16,7 +16,7 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path="/PersonalWebsite" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/FINALresume.pdf" element={<Resume />} />
           <Route path="/projects" element={<Projects />} />
