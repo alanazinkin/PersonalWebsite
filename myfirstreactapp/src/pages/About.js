@@ -17,10 +17,9 @@ function About() {
         personal projects, such as this website!</p>
         <p className='aboutmep4'>I was raised on Long Island, New York, and
          only recently moved to North Carolina to attend Duke. When I’m not typing away at a computer or prototyping
-          in Figma, you can find me working as a tennis instructor, teaching 
-          both children and adults, traveling (I most recently visited Iceland!),
+          in Figma, you can find me working as a tennis instructor, traveling (I most recently visited Iceland!),
           eating ice cream, learning how to cook a new vegetarian recipe, 
-          relaxing with family and friends, or spending time outside somewhere sunny!
+          relaxing with family and friends, or taking a walk while listening to a podcast!
 
 
         </p>

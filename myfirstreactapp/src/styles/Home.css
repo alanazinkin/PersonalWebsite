@@ -33,6 +33,18 @@ h2 {
     font-size: 1.3rem;
     margin-right: 5%;
     margin-left: 5%;
+    margin-top: 55px;
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+.p2{
+    position: relative;
+    font-size: 1.3rem;
+    margin-right: 5%;
+    margin-left: 5%;
     margin-top: 50px;
     border: 1px solid #000000;
     padding: 20px;
@@ -55,7 +67,8 @@ h2 {
 @media (max-width: 1200px) {
     h1,
     h2,
-    .p1 {
+    .p1,
+    .p2 {
         max-width: 100%; /* Remove the maximum width for smaller screens */
         margin-left: 10px;
     }
@@ -72,6 +85,11 @@ h2 {
     }
     
     .p1 {
+        font-size: 1.75rem;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    .p2{
         font-size: 1.75rem;
         margin-right: 10px;
         margin-top: 20px;

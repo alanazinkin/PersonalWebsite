@@ -16,7 +16,7 @@ function Projects() {
                 to take control of their health. Users can optimize their nutrition,
                 mindfulness, sleep, exercise and manage stress with evidence-based data.
                 They may also post questions to a public forum to be answered by
-                medical professionals.
+                medical professionals. She is currently in the process of translating the mobile app into a website.
                 </p>
                 </div>
                 <a href='https://apps.apple.com/us/app/mind-over-matter/id1567325435' target="_blank" rel="noopener noreferrer">
@@ -30,10 +30,10 @@ function Projects() {
                 <div className='columnStack3'>
                 <p className="text3">Alana's Personal Website</p>
                 <p className='paragraph3'>
-                Using React and javascript, Alana built and designed this website from scratch,
-                 self-teaching herself as she went. Alana applied the knowledge she acquired during
+                Using React.js and javascript, Alana built and designed this website from scratch,
+                 teaching herself as she went. Alana applied the knowledge she acquired during
                   her time in Silicon Valley, California, to prototype the website in Figma, and 
-                  realize her design by applying React. She opted for a simple, minimalist design,
+                  realize her design by learning the React framework. She opted for a simple, minimalist design,
                   allowing the information on the site to pop. She is still updating her website 
                   reguarly, and continuing to learn new React and javascript techniques.
                 </p>
@@ -45,16 +45,14 @@ function Projects() {
             <div className="rectangle2">
                 <div className='columnStack2'>
                 <p className="text2">AP 2-D Portfolio</p>
-                <p className='paragraph2'>Alana worked throughout my senior year of high school 
+                <p className='paragraph2'>Alana worked throughout her senior year of high school 
                 conducting a sustained 2-D photography-based investigation guided primarily 
                 by the question: "Why do humans feel trapped and how can they escape emotional,
                  physical, and spiritual confinement?" The portfolio was awarded a score of 5.</p>
-                 <p className='paragraph21'>Her sustained investigation was guided by the question, 
-                "Why do humans feel trapped, and how can they escape emotional, physical, and 
-                spiritual confinement?" Additionally, her portfolio analyzes, "What is the 
+                 <p className='paragraph21'>Additionally, her portfolio analyzes, "What is the 
                 difference between physical confinement and mental imprisonment?" Feeling trapped
-                in an environment, relationship, or situation can be overwhelming and isolating.
-                Nonetheless, she also investigated the strategies used to escape confinement and 
+                in an environment, relationship, or situation can be overwhelming and isolating, but
+                she also investigated the various strategies used to escape confinement and 
                 the symbols that can guide us.</p>
                 </div>
                 <a href={PortfolioPDF} target="_blank" rel="noopener noreferrer">
