@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/Projects.css';
 import Logo from '../assets/mindovermatterlogo.png';
 import Portfolio from '../assets/photoportfolioimg.png';
-import PortfolioPDF from '../assets/PhotoPortfolio.pdf';
+import PortfolioPDF from '../assets/Alana Zinkin AP 2-D Art and Design Portfolio.pdf';
 function Projects() {
   return (
     <div>
