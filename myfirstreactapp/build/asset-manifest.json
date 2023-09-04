@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PersonalWebsite/static/css/main.3ee012d6.css",
+    "main.js": "/PersonalWebsite/static/js/main.39b10dd5.js",
+    "static/js/787.626a797b.chunk.js": "/PersonalWebsite/static/js/787.626a797b.chunk.js",
+    "static/media/PhotoPortfolio.pdf": "/PersonalWebsite/static/media/PhotoPortfolio.7b98db5b7ff3df7e0da6.pdf",
+    "static/media/FINALheadshotJuly2023.jpg": "/PersonalWebsite/static/media/FINALheadshotJuly2023.6b1cd336162839f89068.jpg",
+    "static/media/mindovermatterlogo.png": "/PersonalWebsite/static/media/mindovermatterlogo.eafdc30f03ee06ef1e6b.png",
+    "static/media/alanafinalresume.pdf": "/PersonalWebsite/static/media/alanafinalresume.05b2db6087181690623a.pdf",
+    "static/media/alanazinkinlogo.png": "/PersonalWebsite/static/media/alanazinkinlogo.b366ae5e0932327fdce7.png",
+    "static/media/photoportfolioimg.png": "/PersonalWebsite/static/media/photoportfolioimg.041d712fb09bb5a1598e.png",
+    "static/media/DukeIE_DSV_NewColors2023_transparent.png": "/PersonalWebsite/static/media/DukeIE_DSV_NewColors2023_transparent.0d831c1092de797f1940.png",
+    "static/media/dukeCSLogo.png": "/PersonalWebsite/static/media/dukeCSLogo.3ab0709eb2483c545abc.png",
+    "index.html": "/PersonalWebsite/index.html",
+    "main.3ee012d6.css.map": "/PersonalWebsite/static/css/main.3ee012d6.css.map",
+    "main.39b10dd5.js.map": "/PersonalWebsite/static/js/main.39b10dd5.js.map",
+    "787.626a797b.chunk.js.map": "/PersonalWebsite/static/js/787.626a797b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ee012d6.css",
+    "static/js/main.39b10dd5.js"
+  ]
+}
