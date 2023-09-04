@@ -1,2 +1,1 @@
-# PersonalWebsite
-Alana Zinkin's personal website
+Alana Zinkin's Personal Website
