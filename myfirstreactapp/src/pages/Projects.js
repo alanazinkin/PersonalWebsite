@@ -30,12 +30,11 @@ function Projects() {
                 <div className='columnStack3'>
                 <p className="text3">Alana's Personal Website</p>
                 <p className='paragraph3'>
-                Using React.js and javascript, Alana built and designed this website from scratch,
-                 teaching herself as she went. Alana applied the knowledge she acquired during
-                  her time in Silicon Valley, California, to prototype the website in Figma, and 
-                  realize her design by learning the React framework. She opted for a simple, minimalist design,
-                  allowing the information on the site to pop. She is still updating her website 
-                  reguarly, and continuing to learn new React and javascript techniques.
+                Using React.js and javascript, I built and designed this website from scratch,
+                 teaching myself as she went. I applied the knowledge that I acquired during
+                  my time in Silicon Valley, California, to prototype the website in Figma, and 
+                  realize my design by learning the React framework. I opted for a simple design,
+                  allowing the information on the site to pop. I am regularly updating my website, and continuing to learn new React and javascript techniques.
                 </p>
                 </div>
             </div>
@@ -45,15 +44,14 @@ function Projects() {
             <div className="rectangle2">
                 <div className='columnStack2'>
                 <p className="text2">AP 2-D Portfolio</p>
-                <p className='paragraph2'>Alana worked throughout her senior year of high school 
+                <p className='paragraph2'>I worked throughout my senior year of high school 
                 conducting a sustained 2-D photography-based investigation guided primarily 
                 by the question: "Why do humans feel trapped and how can they escape emotional,
                  physical, and spiritual confinement?" The portfolio was awarded a score of 5.</p>
-                 <p className='paragraph21'>Additionally, her portfolio analyzes, "What is the 
+                 <p className='paragraph21'>Additionally, my portfolio analyzes, "What is the 
                 difference between physical confinement and mental imprisonment?" Feeling trapped
                 in an environment, relationship, or situation can be overwhelming and isolating, but
-                she also investigated the various strategies used to escape confinement and 
-                the symbols that can guide us.</p>
+                I also investigated the various strategies used to escape confinement.</p>
                 </div>
                 <a href={PortfolioPDF} target="_blank" rel="noopener noreferrer">
                 <img className='portfolioimg' src={Portfolio} alt='unavailable'/>

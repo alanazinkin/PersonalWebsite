@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../assets/alanafinalresume.pdf';
+import resume from '../assets/ResumeUpdated 9_5.pdf';
 import '../styles/Resume.css';
 
 function Resume() {
