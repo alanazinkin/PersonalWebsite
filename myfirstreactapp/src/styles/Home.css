@@ -24,7 +24,7 @@ h2 {
     font-size: 2.25rem; 
     color: black;
     font-weight: lighter;
-    margin-top: 100px; 
+    margin-top: 50px; 
     margin-left: 20px; 
 }
 
@@ -33,7 +33,7 @@ h2 {
     font-size: 1.3rem;
     margin-right: 5%;
     margin-left: 5%;
-    margin-top: 55px;
+    margin-top: 90px;
     border: 1px solid #000000;
     padding: 20px;
     border-radius: 50px;
@@ -45,7 +45,7 @@ h2 {
     font-size: 1.3rem;
     margin-right: 5%;
     margin-left: 5%;
-    margin-top: 50px;
+    margin-top: 55px;
     border: 1px solid #000000;
     padding: 20px;
     border-radius: 50px;
@@ -55,12 +55,12 @@ h2 {
 
 .headshot {
     position: relative;
-    max-width: 50%;
+    max-width: 32%;
     height: auto;
     border-radius: 20px;
     box-shadow: 6px 6px 1px rgb(0, 0, 0);
     margin-top: 30px;
-    margin-right: 35px;
+    margin-right: 150px;
     float: right;
 }
 
@@ -96,7 +96,7 @@ h2 {
     }
     
     .headshot {
-        max-width: 100%;
+        max-width: 70%;
         float: none;
         margin-right: 0;
     }

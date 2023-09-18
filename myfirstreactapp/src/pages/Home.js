@@ -1,5 +1,5 @@
 import React from 'react'
-import headshot from '../assets/FINALheadshotJuly2023.jpg';
+import headshot from '../assets/headshotCROPPED.jpg';
 import '../styles/Home.css';
 function Home() {
   return (
