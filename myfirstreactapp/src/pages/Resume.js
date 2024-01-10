@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../assets/ResumeUpdated 9_5.pdf';
+import resume from '../assets/Alana_Zinkin_Resume_1_6.pdf';
 import '../styles/Resume.css';
 
 function Resume() {
