@@ -20,7 +20,7 @@ function Navbar() {
                 <li><Link to='/about'> About Alana </Link></li>
                 <li><Link to='/projects'> Projects </Link></li>
                 <li><Link to='/experiences'> Experiences </Link></li>
-                <li><Link to='/resume.pdf'> Resume </Link></li>
+                <li><Link to='/FINALresume.pdf'> Resume </Link></li>
             </div>
             
         </div>
@@ -29,7 +29,7 @@ function Navbar() {
             <Link to='/about'> About Alana </Link>
             <Link to='/projects'> Projects </Link>
             <Link to='/experiences'> Experiences </Link>
-            <Link to='/resume.pdf'> Resume </Link>
+            <Link to='/FINALresume.pdf'> Resume </Link>
             <button onClick={toggleNavbar}>
                 <ReorderIcon />
             </button>
