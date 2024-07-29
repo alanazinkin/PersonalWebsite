@@ -30,7 +30,7 @@ h4{
   }
 
 .proj1image{
-  margin-left: -10%;
+    margin-left: -10%;
     width: 100%;
     height: auto;
     border-radius: 30px;
@@ -61,7 +61,7 @@ h4{
 .proj3 {
     display: flex;
     justify-content: center;
-    height: 400px;
+    height: 500px;
   }
   
   .rectangle3 {
@@ -134,7 +134,7 @@ h4{
     color: rgb(0, 0, 0);
 
     border: 1px solid #000000; /* Add a 2px solid black border around the text */
-    padding: 20px; /* Add padding inside the box to create space between the text and the border */
+    padding:20px; /* Add padding inside the box to create space between the text and the border */
     border-radius: 50px;
     width: 700px;
     background-color: rgb(255, 255, 255);
@@ -174,6 +174,12 @@ h4{
     margin-left: 20px;
   }
 
+  .proj4 {
+    display: flex;
+    justify-content: center;
+    height: 370px;
+  }
+
   .text4 {
     font-size: 40px;
     color: rgb(0, 0, 0);
@@ -189,7 +195,7 @@ h4{
     font-size: 20px; 
     color: rgb(255, 255, 255); 
     margin-top: 20px;
-    margin-right: 30px;
+    margin-right: 200px;
     margin-left: 20px;
   }
 
@@ -198,7 +204,21 @@ h4{
     padding: 40px;
     display: flex;
     align-items: center;
-    padding-bottom: 9%;
+    padding-bottom: 5%;
     border: 1px solid black;
   }
+
+  .SalesforceLogo{
+      margin-left: -10%;
+      width: 20%;
+      height: auto;
+      border-radius: 30px;
+      transition: box-shadow 0.3s ease; /* Added transition effect for smooth hover */
+      border: 2px solid rgb(189, 185, 191);
   
+      border: 1px solid #000000; /* Add a 2px solid black border around the text */
+      background-color: #f2deff;
+      padding: 20px; /* Add padding inside the box to create space between the text and the border */
+      border-radius: 50px;
+      box-shadow: 6px 6px 1px rgb(0, 0, 0);
+      }

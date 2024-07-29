@@ -3,13 +3,14 @@ import '../styles/Projects.css';
 import Logo from '../assets/mindovermatterlogo.png';
 import Portfolio from '../assets/photoportfolioimg.png';
 import PortfolioPDF from '../assets/APPortfolio.pdf';
+import SalesforceLogo from '../assets/salesforce.png';
 function Projects() {
   return (
     <div>
         <h4>Projects</h4>
         <div className='proj4'>
             <div className="rectangle4">
-                <div className='columnStack'>
+                <div className='columnStack4'>
                 <p className="text4">Salesforce Analytics Dashboards</p>
                 <p className='paragraph4'>This past summer, I had the incredible opportunity to work as a consultant for a Department of 
                 Defense agency. I designed Salesforce Analytics dashboards using Tableau based on user stories to highlight key operations 
@@ -17,6 +18,7 @@ function Projects() {
                 have worked alongside an incredible team who taught me both technical and collaboration skills.
                 </p>
                 </div>
+                <img className='SalesforceLogo' src={SalesforceLogo} alt='unavailable'/>
             </div>
         </div>
         <div className='proj1'>
