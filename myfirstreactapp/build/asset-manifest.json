@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.e86a1c78.css",
-    "main.js": "/PersonalWebsite/static/js/main.1916754c.js",
+    "main.css": "/PersonalWebsite/static/css/main.08875057.css",
+    "main.js": "/PersonalWebsite/static/js/main.1b81f14b.js",
     "static/js/787.9078b889.chunk.js": "/PersonalWebsite/static/js/787.9078b889.chunk.js",
     "static/media/APPortfolio.pdf": "/PersonalWebsite/static/media/APPortfolio.7276de148ee40b1cacca.pdf",
     "static/media/headshotCROPPED.jpg": "/PersonalWebsite/static/media/headshotCROPPED.492bfca52a4433173403.jpg",
-    "static/media/Alana_Zinkin_Resume_1_6.pdf": "/PersonalWebsite/static/media/Alana_Zinkin_Resume_1_6.6dbc59f4f1f31207eb30.pdf",
+    "static/media/Alana_Zinkin_Resume.pdf": "/PersonalWebsite/static/media/Alana_Zinkin_Resume.c8ad223796b12414140f.pdf",
     "static/media/mindovermatterlogo.png": "/PersonalWebsite/static/media/mindovermatterlogo.eafdc30f03ee06ef1e6b.png",
+    "static/media/salesforce.png": "/PersonalWebsite/static/media/salesforce.98d88e1838fcf61f49e7.png",
     "static/media/alanazinkinlogo.png": "/PersonalWebsite/static/media/alanazinkinlogo.b366ae5e0932327fdce7.png",
     "static/media/photoportfolioimg.png": "/PersonalWebsite/static/media/photoportfolioimg.041d712fb09bb5a1598e.png",
     "static/media/DukeIE_DSV_NewColors2023_transparent.png": "/PersonalWebsite/static/media/DukeIE_DSV_NewColors2023_transparent.0d831c1092de797f1940.png",
     "static/media/dukeCSLogo.png": "/PersonalWebsite/static/media/dukeCSLogo.3ab0709eb2483c545abc.png",
     "index.html": "/PersonalWebsite/index.html",
-    "main.e86a1c78.css.map": "/PersonalWebsite/static/css/main.e86a1c78.css.map",
-    "main.1916754c.js.map": "/PersonalWebsite/static/js/main.1916754c.js.map",
+    "main.08875057.css.map": "/PersonalWebsite/static/css/main.08875057.css.map",
+    "main.1b81f14b.js.map": "/PersonalWebsite/static/js/main.1b81f14b.js.map",
     "787.9078b889.chunk.js.map": "/PersonalWebsite/static/js/787.9078b889.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e86a1c78.css",
-    "static/js/main.1916754c.js"
+    "static/css/main.08875057.css",
+    "static/js/main.1b81f14b.js"
   ]
 }

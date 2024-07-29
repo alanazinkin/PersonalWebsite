@@ -16,10 +16,17 @@ function Home() {
 
             <p className='p1'>I’m passionate about designing elegant solutions to complex problems, with an emphasis on creating an enjoyable user experience. This summer, I am working as a Solutions Engineer at
              Deloitte, consulting for a Department of Defense Agency. </p>
-            <p className='p2'> At Duke, I serve as DTech’s Interest Group Vice President coordinating our 
-            leaders to organize and host events for members of the organization to attend. I also work as an undergraduate teaching assistant 
-            for Duke's largest CS course: Data Structures and Algorithms. I enjoy simplifying complicated concepts during weekly office
-            hours and discussion sessions and collaborating with the other TAs to create engaging lesson plans. This fall, I will be studying abroad in Florence, Italy.</p>
+            <p className='p2'> At Duke, I serve as the Vice President of DTech’s Interest Group, where I coordinate our leaders to organize and host events for our 
+            members. Additionally, I work as an undergraduate teaching assistant for Duke's largest CS course, Data Structures and Algorithms. I enjoy simplifying complex 
+            concepts during weekly office hours and discussion sessions and collaborating with other TAs to create engaging lesson plans. This fall, I will be studying 
+            abroad in Florence, Italy. Even with the time zone difference, please feel free to reach out to me anytime!
+
+
+
+
+
+
+</p>
             
         </div>
         
