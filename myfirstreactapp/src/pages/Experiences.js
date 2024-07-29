@@ -18,7 +18,8 @@ function Experiences() {
         client pain points, product goals, target customers, and financial issues. Our team eventually presented our recommendations, including a brand refresh,
         new marketing campaign, improved company communication channels, and enhanced cybersecurity measures to the
          founders based on client feedback. Througout the simulation, I had the opportunity to lead daily stand-up meetings 
-         to set goals, delegate tasks, and motivate the cross-functional intern team.</p>
+         to set goals, delegate tasks, and motivate the cross-functional intern team. Through this experience, I made strong connections with not only my team, but also other Discovery interns.
+         I am immensely grateful for Deloitte and my team for making my summer so memorable!</p>
              <img className='DeloitteLogo' src={DeloitteLogo} alt='unavailable'/>
       </div>
 
