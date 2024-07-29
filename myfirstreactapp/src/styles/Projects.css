@@ -173,4 +173,32 @@ h4{
     margin-right: 30px;
     margin-left: 20px;
   }
+
+  .text4 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+
+    border: 1px solid #000000; /* Add a 2px solid black border around the text */
+    padding: 20px; /* Add padding inside the box to create space between the text and the border */
+    border-radius: 50px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6px 6px 1px rgb(0, 0, 0);
+  }
+  .paragraph4{
+    font-size: 20px; 
+    color: rgb(255, 255, 255); 
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+
+  .rectangle4 {
+    background-color: #66277e;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 9%;
+    border: 1px solid black;
+  }
   

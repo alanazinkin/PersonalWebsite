@@ -7,16 +7,28 @@ function Projects() {
   return (
     <div>
         <h4>Projects</h4>
+        <div className='proj4'>
+            <div className="rectangle4">
+                <div className='columnStack'>
+                <p className="text4">Salesforce Analytics Dashboards</p>
+                <p className='paragraph4'>This past summer, I had the incredible opportunity to work as a consultant for a Department of 
+                Defense agency. I designed Salesforce Analytics dashboards using Tableau based on user stories to highlight key operations 
+                metrics for military officials, enabling informed, data-driven decisions. I learned agile/scrum frameworks and am fortunate to 
+                have worked alongside an incredible team who taught me both technical and collaboration skills.
+                </p>
+                </div>
+            </div>
+        </div>
         <div className='proj1'>
             <div className="rectangle1">
                 <div className='columnStack'>
                 <p className="text1">MindOverMatter. Mobile Application</p>
-                <p className='paragraph1'>Alana worked alongside her mother, Dr. Heather Zinkin,
+                <p className='paragraph1'>I worked alongside my mother, Dr. Heather Zinkin,
                 to develop a free app that allows users to learn various strategies
                 to take control of their health. Users can optimize their nutrition,
                 mindfulness, sleep, exercise and manage stress with evidence-based data.
                 They may also post questions to a public forum to be answered by
-                medical professionals. She is currently in the process of translating the mobile app into a website.
+                medical professionals. I am currently in the process of translating the mobile app into a website.
                 </p>
                 </div>
                 <a href='https://apps.apple.com/us/app/mind-over-matter/id1567325435' target="_blank" rel="noopener noreferrer">
