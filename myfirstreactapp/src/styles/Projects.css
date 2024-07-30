@@ -209,16 +209,17 @@ h4{
   }
 
   .SalesforceLogo{
-      margin-left: -10%;
-      width: 20%;
-      height: auto;
-      border-radius: 30px;
-      transition: box-shadow 0.3s ease; /* Added transition effect for smooth hover */
-      border: 2px solid rgb(189, 185, 191);
-  
-      border: 1px solid #000000; /* Add a 2px solid black border around the text */
-      background-color: #f2deff;
-      padding: 20px; /* Add padding inside the box to create space between the text and the border */
-      border-radius: 50px;
-      box-shadow: 6px 6px 1px rgb(0, 0, 0);
-      }
+    max-width: 15%;
+    margin-left: -10%;
+    width: 20%;
+    height: auto;
+    border-radius: 30px;
+    transition: box-shadow 0.3s ease; /* Added transition effect for smooth hover */
+    border: 2px solid rgb(189, 185, 191);
+
+    border: 1px solid #000000; /* Add a 2px solid black border around the text */
+    background-color: #f2deff;
+    padding: 20px; /* Add padding inside the box to create space between the text and the border */
+    border-radius: 50px;
+    box-shadow: 6px 6px 1px rgb(0, 0, 0);
+    }
