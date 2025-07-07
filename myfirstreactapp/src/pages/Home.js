@@ -30,7 +30,7 @@ function Home() {
           <p className="p2">
             At Duke, I serve as Vice President of the DTech Career Fair,
             connecting over 300 tech students with industry-leading companies. If you’re
-            interested in participating, I’d love to connect! I have also been working as a Teaching Assistant
+            interested in participating, I’d love to connect! I am also a Teaching Assistant
             for Duke’s largest computer science course, Data Structures and
             Algorithms, where I simplify complex technical concepts through weekly
             discussion sections and office hours.
