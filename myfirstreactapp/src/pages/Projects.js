@@ -14,7 +14,7 @@ function Projects() {
         <div className='proj6'>
           <div className="rectangle6">
             <div className='columnStack6'>
-              <p className="text6">Scrolling-Platform Game Engine + Editor</p>
+              <p className="text6">Scrolling Platform Game Engine + Editor</p>
               <p className='paragraph6'>In CS308: Advanced Software Design and
                 Implementation, I worked alongside seven other engineers to
                 build a
