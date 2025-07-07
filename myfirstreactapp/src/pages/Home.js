@@ -20,13 +20,11 @@ function Home() {
           </div>
 
           <p className="p1">
-            I’m passionate about building intuitive, well-designed, impactful
+            I’m passionate about building intuitive, impactful
             products that solve complex problems. This summer, I’m working as a
             Product Manager at Capital One, leading efforts to redesign a new
-            form
-            of two-factor authentication to make identity verification more
-            secure
-            and seamless for millions of users.
+            two-factor authentication technique to make identity verification more
+            secure and seamless for millions of users.
           </p>
 
           <p className="p2">
