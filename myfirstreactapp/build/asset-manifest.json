@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.7177e6a7.css",
-    "main.js": "/PersonalWebsite/static/js/main.2de2c63b.js",
+    "main.css": "/PersonalWebsite/static/css/main.9ff86d13.css",
+    "main.js": "/PersonalWebsite/static/js/main.81472c48.js",
     "static/js/787.9078b889.chunk.js": "/PersonalWebsite/static/js/787.9078b889.chunk.js",
     "static/media/APPortfolio.pdf": "/PersonalWebsite/static/media/APPortfolio.7276de148ee40b1cacca.pdf",
     "static/media/headshotCROPPED.jpg": "/PersonalWebsite/static/media/headshotCROPPED.492bfca52a4433173403.jpg",
-    "static/media/Alana_Zinkin_Resume.pdf": "/PersonalWebsite/static/media/Alana_Zinkin_Resume.c8ad223796b12414140f.pdf",
+    "static/media/Alana_Zinkin_Resume.pdf": "/PersonalWebsite/static/media/Alana_Zinkin_Resume.5ecd9bf8afbff6f17fec.pdf",
     "static/media/mindovermatterlogo.png": "/PersonalWebsite/static/media/mindovermatterlogo.eafdc30f03ee06ef1e6b.png",
+    "static/media/github_logo.png": "/PersonalWebsite/static/media/github_logo.7fb22861e41a1b0a33df.png",
     "static/media/salesforce.png": "/PersonalWebsite/static/media/salesforce.98d88e1838fcf61f49e7.png",
     "static/media/alanazinkinlogo.png": "/PersonalWebsite/static/media/alanazinkinlogo.b366ae5e0932327fdce7.png",
     "static/media/photoportfolioimg.png": "/PersonalWebsite/static/media/photoportfolioimg.041d712fb09bb5a1598e.png",
     "static/media/Deloitte_Logo.jpg": "/PersonalWebsite/static/media/Deloitte_Logo.ab07c6f2e8184b5a6baf.jpg",
+    "static/media/CapitalOne.png": "/PersonalWebsite/static/media/CapitalOne.9c0c416aa665658eddfe.png",
     "static/media/DukeIE_DSV_NewColors2023_transparent.png": "/PersonalWebsite/static/media/DukeIE_DSV_NewColors2023_transparent.0d831c1092de797f1940.png",
     "static/media/dukeCSLogo.png": "/PersonalWebsite/static/media/dukeCSLogo.3ab0709eb2483c545abc.png",
     "static/media/PalantirLogo.png": "/PersonalWebsite/static/media/PalantirLogo.d4606756afd78dda6ad4.png",
     "index.html": "/PersonalWebsite/index.html",
-    "main.7177e6a7.css.map": "/PersonalWebsite/static/css/main.7177e6a7.css.map",
-    "main.2de2c63b.js.map": "/PersonalWebsite/static/js/main.2de2c63b.js.map",
+    "main.9ff86d13.css.map": "/PersonalWebsite/static/css/main.9ff86d13.css.map",
+    "main.81472c48.js.map": "/PersonalWebsite/static/js/main.81472c48.js.map",
     "787.9078b889.chunk.js.map": "/PersonalWebsite/static/js/787.9078b889.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7177e6a7.css",
-    "static/js/main.2de2c63b.js"
+    "static/css/main.9ff86d13.css",
+    "static/js/main.81472c48.js"
   ]
 }

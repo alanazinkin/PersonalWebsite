@@ -213,13 +213,160 @@ h4{
     margin-left: -10%;
     width: 20%;
     height: auto;
-    border-radius: 30px;
-    transition: box-shadow 0.3s ease; /* Added transition effect for smooth hover */
-    border: 2px solid rgb(189, 185, 191);
-
-    border: 1px solid #000000; /* Add a 2px solid black border around the text */
+    transition: box-shadow 0.3s ease;
+    border: 1px solid #000000;
     background-color: #f2deff;
-    padding: 20px; /* Add padding inside the box to create space between the text and the border */
+    padding: 20px;
     border-radius: 50px;
     box-shadow: 6px 6px 1px rgb(0, 0, 0);
     }
+
+    .proj5 {
+      display: flex;
+      justify-content: center;
+      height: 370px;
+    }
+  
+    .text5 {
+      font-size: 40px;
+      color: rgb(0, 0, 0);
+  
+      border: 1px solid #000000; /* Add a 2px solid black border around the text */
+      padding: 20px; /* Add padding inside the box to create space between the text and the border */
+      border-radius: 50px;
+      width: 700px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 6px 6px 1px rgb(0, 0, 0);
+    }
+    .paragraph5{
+      font-size: 20px; 
+      color: rgb(255, 255, 255); 
+      margin-top: 20px;
+      margin-right: 200px;
+      margin-left: 20px;
+    }
+  
+    .rectangle5 {
+      background-color: #2b7170;
+      padding: 40px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 5%;
+      border: 1px solid black;
+    }
+
+
+.GitHubLogo {
+  max-width: 80%;
+  margin-left: -10%;
+  width: 80%;
+  height: auto;
+  transition: box-shadow 0.3s ease;
+  border: 1px solid #000000;
+  background-color: white;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 6px 6px 1px rgb(0, 0, 0);
+}
+
+.proj6 {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+
+.text6 {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+
+  border: 1px solid #000000; /* Add a 2px solid black border around the text */
+  padding: 20px; /* Add padding inside the box to create space between the text and the border */
+  border-radius: 50px;
+  width: 700px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 6px 6px 1px rgb(0, 0, 0);
+}
+.paragraph6{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-right: 200px;
+  margin-left: 20px;
+}
+
+.rectangle6 {
+  background-color: #2b7170;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 5%;
+  border: 1px solid black;
+}
+
+.proj7 {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+.text7 {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+
+  border: 1px solid #000000; /* Add a 2px solid black border around the text */
+  padding: 20px; /* Add padding inside the box to create space between the text and the border */
+  border-radius: 50px;
+  width: 700px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 6px 6px 1px rgb(0, 0, 0);
+}
+.paragraph7{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+  margin-right: 200px;
+  margin-left: 20px;
+}
+
+.rectangle7 {
+  background-color: #b9e1de;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 5%;
+  border: 1px solid black;
+}
+
+.proj8 {
+  display: flex;
+  justify-content: center;
+  height: 370px;
+}
+
+.text8 {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+
+  border: 1px solid #000000; /* Add a 2px solid black border around the text */
+  padding: 20px; /* Add padding inside the box to create space between the text and the border */
+  border-radius: 50px;
+  width: 700px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 6px 6px 1px rgb(0, 0, 0);
+}
+.paragraph8{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+  margin-right: 200px;
+  margin-left: 20px;
+}
+
+.rectangle8 {
+  background-color: #eecdfa;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 5%;
+  border: 1px solid black;
+}

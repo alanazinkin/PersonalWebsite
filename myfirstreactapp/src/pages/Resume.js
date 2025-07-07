@@ -1,4 +1,3 @@
-import React from 'react'
 import resume from '../assets/Alana_Zinkin_Resume.pdf';
 import '../styles/Resume.css';
 

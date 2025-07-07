@@ -7,7 +7,8 @@
 .experience1,
 .experience2,
 .experience3,
-.experience4 {
+.experience4,
+.experience5 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,15 +17,16 @@
   background-color: rgb(255, 255, 255);
   box-shadow: 6px 6px 1px rgb(0, 0, 0);
   transition: box-shadow 0.3s ease;
-  margin: 20px 30px 0 20px; 
+  margin: 20px 30px 0 20px;
   padding: 40px;
-  position: relative; 
+  position: relative;
 }
 
 .experience1:hover,
 .experience2:hover,
 .experience3:hover,
-.experience4:hover {
+.experience4:hover ,
+.experience5:hover{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -32,16 +34,18 @@
 .teachingAssistant,
 .studentConsultant,
 .Deloitte,
-.Palantir {
-  font-size: 2rem; 
+.Palantir,
+.CapitalOne {
+  font-size: 2rem;
   color: #000000;
 }
 
 .description1,
 .description2,
 .description3,
-.description4 {
-  font-size: 1.25rem; 
+.description4,
+.description5 {
+  font-size: 1.25rem;
   color: #000000;
   margin-top: 10px;
 }
@@ -65,4 +69,10 @@
 .PalantirLogo {
   width: 25%;
   height: auto;
+}
+
+.CapitalOneLogo {
+  width: 25%;
+  height: auto;
+  padding-top: 30px;
 }

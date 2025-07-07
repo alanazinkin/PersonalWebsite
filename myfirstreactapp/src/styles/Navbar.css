@@ -1,134 +1,136 @@
 .navbar {
-    width: 100%;
-    height: 100px;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    border-bottom: .5px solid black;
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  border-bottom: .5px solid black;
 
 }
 
 .navbar .leftSide {
-    flex: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding-left: 150px;
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
 }
-  
+
 .navbar .leftSide img {
-    width: 445px;
-    position:absolute;
-    left: 3%;
-    top:.5%;
+  width: 445px;
+  position: absolute;
+  left: 3%;
+  top: .5%;
 }
-  
+
 .navbar .rightSide {
-    flex: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar a {
-    position: relative;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    margin: 40px;
-    transition: color 0.3s ease; /* Added transition effect for smooth hover */
-    
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin: 40px;
+  transition: color 0.3s ease; /* Added transition effect for smooth hover */
+
+}
+
+.navbar a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Adjust the desired thickness of the outline */
+  background-color: rgb(170, 170, 245); /* Color of the outline */
+  transform: scaleX(0); /* Initially hidden */
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.navbar a:hover::after {
+  transform: scaleX(1); /* Display the outline on hover */
+}
+
+
+.navbar .rightSide button {
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.navbar .rightSide svg {
+  font-size: 50px;
+}
+
+.navbar #open {
+  padding-left: 0px;
+}
+
+
+.navbar #close img {
+  display: inherit;
+}
+
+.navbar #open .hiddenLinks {
+  position: absolute;
+  right: .5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  top: 90px;
+  width: 300px;
+  background: rgba(129, 129, 129, 0.1);
+  backdrop-filter: blur(50px);
+  list-style-type: none;
+  z-index: 2;
+}
+
+.navbar #close .hiddenLinks {
+  display: none;
+}
+
+.navbar #open a {
+  width: 70px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar .rightSide a {
+    width: 70px;
   }
 
-  .navbar a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px; /* Adjust the desired thickness of the outline */
-    background-color: rgb(170, 170, 245); /* Color of the outline */
-    transform: scaleX(0); /* Initially hidden */
-    transform-origin: center;
-    transition: transform 0.3s ease;
+  .navbar .leftSide {
+    padding-left: 50px;
   }
-  
-  .navbar a:hover::after {
-    transform: scaleX(1); /* Display the outline on hover */
-  }
+}
 
-  
-  .navbar .rightSide button {
-    background-color: transparent;
-    border: none;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-  }
-  
-  .navbar .rightSide svg {
-    font-size: 50px;
-  }
-  
-  .navbar #open {
-    padding-left: 0px;
-  }
-  
-  
-  .navbar #close img {
-    display: inherit;
-  }
-  
-  .navbar #open .hiddenLinks {
-    position: absolute;
-    right: .5rem;
-    font-size: 1.25rem;
-    line-height: 1.5;
-    top:90px;
-    width: 300px;
-    background: rgba(129, 129, 129, 0.1);
-    backdrop-filter: blur(50px);
-    list-style-type: none;
-    z-index: 2;
-  }
-  
-  .navbar #close .hiddenLinks {
+@media only screen and (max-width: 1150px) {
+  .navbar .rightSide a {
     display: none;
   }
-  
-  .navbar #open a {
-    width: 70px;
-    margin: 5px;
+
+  .navbar .rightSide {
+    justify-content: flex-end;
+    padding-right: 50px;
   }
-  @media only screen and (max-width: 900px) {
-    .navbar .rightSide a {
-      width: 70px;
-    }
-    .navbar .leftSide {
-      padding-left: 50px;
-    }
+
+  .navbar .rightSide button {
+    display: inherit;
   }
-  
-  @media only screen and (max-width: 1150px) {
-    .navbar .rightSide a {
-      display: none;
-    }
-  
-    .navbar .rightSide {
-      justify-content: flex-end;
-      padding-right: 50px;
-    }
-  
-    .navbar .rightSide button {
-      display: inherit;
-    }
+}
+
+@media only screen and (min-width: 1150px) {
+  .navbar .rightSide button {
+    display: none;
   }
-  
-  @media only screen and (min-width: 1150px) {
-    .navbar .rightSide button {
-      display: none;
-    }
-  
-    .hiddenLinks {
-      display: none;
-    }
+
+  .hiddenLinks {
+    display: none;
   }
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../styles/Footer.css';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import GitHubLogo from "../assets/github_logo.png";
 
 function Footer() {
   const emailAddress = 'alana.zinkin@duke.edu';
@@ -21,6 +22,11 @@ function Footer() {
         <span onClick={handleEmailClick}>
           <MailOutlineIcon />
         </span>
+
+          <a href="https://github.com/alanazinkin"
+             target="_blank" rel="noopener noreferrer">
+            <img className="GitHubLogoFooter" src={GitHubLogo} alt="GitHub logo"/>
+          </a>
         
         <p>&copy; 2023 alanazinkin.github.io/PersonalWebsite/</p>
         </div>

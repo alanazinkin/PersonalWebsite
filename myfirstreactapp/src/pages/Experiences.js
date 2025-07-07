@@ -1,25 +1,33 @@
-import React from 'react'
 import '../styles/Experiences.css';
 import DSVLOGO from '../assets/DukeIE_DSV_NewColors2023_transparent.png';
 import DukeCSLogo from '../assets/dukeCSLogo.png';
 import DeloitteLogo from '../assets/Deloitte_Logo.jpg';
 import PalantirLogo from '../assets/PalantirLogo.png';
+import CapitalOneLogo from '../assets/CapitalOne.png';
 
 function Experiences() {
   return (
     <div className='experienceHeader'>
+      <div className='experience5'>
+        <p className='CapitalOne'>Product Manager at Capital One</p>
+        <p className='description5'>This summer, I am working as a Product Management Intern on the Identity Team at Capital One. My project focuses on enhancing a new form of two-factor authentication to increase the number of users who are able to successfully verify their identity. I developed a product requirements document and redesigned the UX by conducting user research and analyzing customer pain points to reduce friction and increase successful authentications for millions of customers.
+          I designed and launched concept tests with 30+ customers to validate prototypes and gather actionable feedback. I am currently leading design, research, and engineering teams to ideate, prototype, and build a more intuitive UI for customers.
+        </p>
+        <img className='CapitalOneLogo' src={CapitalOneLogo} alt='unavailable'/>
+      </div>
+
       <div className='experience3'>
         <p className='Deloitte'>Government & Public Services Solutions Engineer at Deloitte</p>
-        <p className='description3'>This past summer, I participated in Deloitte's Discovery II intern program within the govnerment and public services consulting business.
+        <p className='description3'>Last summer, I participated in Deloitte's Discovery II intern program within the government and public services consulting business.
         During my internship, I had the opportunity to work as a Solutions Engineer for a department of defense agency. I designed Salesforce Analytics dashboards using 
         Tableau based on user stories to highlight key metrics for DOD military officials,
         enabling informed, data-driven decisions. Additionally, I streamlined the team's Salesforce data model, ensuring smooth future development. Aside from my client project,
         I participated in a two-week cross-business case simulation with a team of 9 interns. During this case simulation, I consulted for a social media company post-merger by analyzing 
         client pain points, product goals, target customers, and financial issues. Our team eventually presented our recommendations, including a brand refresh,
         new marketing campaign, improved company communication channels, and enhanced cybersecurity measures to the
-         founders based on client feedback. Througout the simulation, I had the opportunity to lead daily stand-up meetings 
+         founders based on client feedback. Throughout the simulation, I had the opportunity to lead daily stand-up meetings
          to set goals, delegate tasks, and motivate the cross-functional intern team. Through this experience, I made strong connections with not only my team, but also other Discovery interns.
-         I am immensely grateful for Deloitte and my team for making my summer so memorable!</p>
+         I am immensely grateful for Deloitte and my team for making my summer so memorable.</p>
              <img className='DeloitteLogo' src={DeloitteLogo} alt='unavailable'/>
       </div>
 
@@ -29,7 +37,7 @@ function Experiences() {
         spent the week shadowing Palantir professionals and learning how to leverage Palantir’s Foundry platform and Artificial Intelligence Platform (AIP) 
         through interactive, hands-on workshops. I also lead a team of Launchers to develop a Foundry application for pandemic preparedness by tracking 
         vaccine development & distribution with a focus on user experience. It was incredibly exciting to learn about Palantir's company values and culture, 
-        and to engage with numerous Palantirians. I gained an immense amount of knowledge in just one week and made lasting friendships with my fellow Launchers! </p>
+        and to engage with numerous Palantirians. I gained an immense amount of knowledge in just one week and made lasting friendships with my fellow Launchers. </p>
              <img className='PalantirLogo' src={PalantirLogo} alt='unavailable'/>
       </div>
 
