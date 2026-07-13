@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.a84f5e90.css",
-    "main.js": "/PersonalWebsite/static/js/main.3832541e.js",
-    "static/js/787.9078b889.chunk.js": "/PersonalWebsite/static/js/787.9078b889.chunk.js",
+    "main.css": "/PersonalWebsite/static/css/main.330bae39.css",
+    "main.js": "/PersonalWebsite/static/js/main.9c2b0ee1.js",
+    "static/js/453.502ff635.chunk.js": "/PersonalWebsite/static/js/453.502ff635.chunk.js",
     "static/media/APPortfolio.pdf": "/PersonalWebsite/static/media/APPortfolio.7276de148ee40b1cacca.pdf",
-    "static/media/headshotCROPPED.jpg": "/PersonalWebsite/static/media/headshotCROPPED.492bfca52a4433173403.jpg",
-    "static/media/Alana_Zinkin_Resume.pdf": "/PersonalWebsite/static/media/Alana_Zinkin_Resume.5ecd9bf8afbff6f17fec.pdf",
+    "static/media/headshotCROPPED.jpg": "/PersonalWebsite/static/media/headshotCROPPED.fc96fce5a8bc220b36ea.jpg",
+    "static/media/Alana_Zinkin_Resume.pdf": "/PersonalWebsite/static/media/Alana_Zinkin_Resume.a9b9179ec6f72e4d41e1.pdf",
     "static/media/mindovermatterlogo.png": "/PersonalWebsite/static/media/mindovermatterlogo.eafdc30f03ee06ef1e6b.png",
     "static/media/github_logo.png": "/PersonalWebsite/static/media/github_logo.7fb22861e41a1b0a33df.png",
     "static/media/salesforce.png": "/PersonalWebsite/static/media/salesforce.98d88e1838fcf61f49e7.png",
@@ -17,12 +17,12 @@
     "static/media/dukeCSLogo.png": "/PersonalWebsite/static/media/dukeCSLogo.3ab0709eb2483c545abc.png",
     "static/media/PalantirLogo.png": "/PersonalWebsite/static/media/PalantirLogo.d4606756afd78dda6ad4.png",
     "index.html": "/PersonalWebsite/index.html",
-    "main.a84f5e90.css.map": "/PersonalWebsite/static/css/main.a84f5e90.css.map",
-    "main.3832541e.js.map": "/PersonalWebsite/static/js/main.3832541e.js.map",
-    "787.9078b889.chunk.js.map": "/PersonalWebsite/static/js/787.9078b889.chunk.js.map"
+    "main.330bae39.css.map": "/PersonalWebsite/static/css/main.330bae39.css.map",
+    "main.9c2b0ee1.js.map": "/PersonalWebsite/static/js/main.9c2b0ee1.js.map",
+    "453.502ff635.chunk.js.map": "/PersonalWebsite/static/js/453.502ff635.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a84f5e90.css",
-    "static/js/main.3832541e.js"
+    "static/css/main.330bae39.css",
+    "static/js/main.9c2b0ee1.js"
   ]
 }
