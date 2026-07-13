@@ -1,372 +1,114 @@
-
-h4{
-    display: none;
-    font-size: 40px;
-}
-  .proj1 {
-    display: flex;
-    justify-content: center;
-    height: 350px; 
-  }
-  
-  .rectangle1 {
-    background-color: #f2deff;
-    padding: 40px;
-    padding-bottom: 5%;
-    display: flex;
-    align-items: center;
-  }
-  
-  .text1 {
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-
-    border: 1px solid #000000; /* Add a 2px solid black border around the text */
-    padding: 20px; /* Add padding inside the box to create space between the text and the border */
-    border-radius: 50px;
-    width: 800px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 6px 6px 1px rgb(0, 0, 0);
-  }
-
-.proj1image{
-    margin-left: -10%;
-    width: 100%;
-    height: auto;
-    border-radius: 30px;
-    transition: box-shadow 0.3s ease; /* Added transition effect for smooth hover */
-    border: 2px solid rgb(191, 185, 185);
-
-    border: 1px solid #000000; /* Add a 2px solid black border around the text */
-    padding: 10px; /* Add padding inside the box to create space between the text and the border */
-    border-radius: 50px;
-    background-color: rgba(94, 7, 128, 0.825);
-    box-shadow: 6px 6px 1px rgb(0, 0, 0);
-    }
-
-.proj1image:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
-    }
-
-.paragraph1{
-    font-size: 20px; 
-    color: black; 
-    margin-top: 20px;
-    margin-right: 30px;
-    margin-left: 30px;
+.projects {
+  background-color: var(--color-bg);
+  padding: var(--space-2xl) 0;
 }
 
-
-
-.proj3 {
-    display: flex;
-    justify-content: center;
-    height: 500px;
-  }
-  
-  .rectangle3 {
-    background-color: #185a58;
-    padding: 40px;
-    padding-bottom: 9%;
-    display: flex;
-    align-items: center;
-  }
-  
-  .text3 {
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-
-    border: 1px solid #000000; /* Add a 2px solid black border around the text */
-    padding: 20px; /* Add padding inside the box to create space between the text and the border */
-    border-radius: 50px;
-    width: 800px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 6px 6px 1px rgb(0, 0, 0);
-
-  }
-
-.proj3image{
-    margin-left: auto;
-    width: 100%;
-    height: auto;
-    border-radius: 30px;
-    transition: box-shadow 0.3s ease; /* Added transition effect for smooth hover */
-
-    border: 1px solid #000000; /* Add a 2px solid black border around the text */
-    padding: 10px; /* Add padding inside the box to create space between the text and the border */
-    border-radius: 50px;
-    background-color: rgb(90, 144, 138);
-    box-shadow: 6px 6px 1px rgb(0, 0, 0);
-    }
-
-.proj3image:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
-    }
-
-.paragraph3{
-    font-size: 20px; 
-    color: rgb(255, 255, 255); 
-    margin-top: 20px;
-    margin-right: 30px;
-    margin-left: 20px;
+.projects-title {
+  font-size: var(--fs-hero);
+  color: var(--color-heading);
+  margin-bottom: var(--space-lg);
 }
-  
 
-.proj2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px; 
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
 }
-  
-  .rectangle2 {
 
-    background-color: #66277e;
-    padding: 40px;
-    display: flex;
-    align-items: center;
-    padding-bottom: 9%;
-    border: 1px solid black;
-  }
-  
-  .text2 {
-    font-size: 40px;
-    color: rgb(0, 0, 0);
+.project-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-lg);
+  transition: box-shadow var(--transition-base), transform var(--transition-base);
+}
 
-    border: 1px solid #000000; /* Add a 2px solid black border around the text */
-    padding:20px; /* Add padding inside the box to create space between the text and the border */
-    border-radius: 50px;
-    width: 700px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 6px 6px 1px rgb(0, 0, 0);
-  }
+.project-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
 
- .portfolioimg{
-    margin-left: auto;
-    width: 90%;
-    height: auto;
-    border-radius: 30px;
-    transition: box-shadow 0.3s ease;
-    
-    border: 1px solid #000000; /* Add a 2px solid black border around the text */
-    padding: 10px; /* Add padding inside the box to create space between the text and the border */
-    border-radius: 50px;
-    background-color: rgba(218, 155, 241, 0.825);
-    box-shadow: 6px 6px 1px rgb(0, 0, 0);
-  }
-  .portfolioimg:hover{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Added box-shadow effect on hover */
-  }
+.project-card:has(.project-media) {
+  grid-template-columns: 1fr 220px;
+  align-items: center;
+}
 
-  .paragraph2{
-    font-size: 20px; 
-    color: rgb(255, 255, 255); 
-    margin-top: 20px;
-    margin-right: 30px;
-    margin-left: 20px;
-  }
+.project-title {
+  font-size: var(--fs-h2);
+  color: var(--color-heading);
+  margin-bottom: var(--space-xs);
+}
 
-  .paragraph21{
-    font-size: 20px; 
-    color: rgb(255, 255, 255); 
-    margin-top: 20px;
-    margin-right: 30px;
-    margin-left: 20px;
-  }
+.project-description {
+  font-size: var(--fs-body);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-xs);
+}
 
-  .proj4 {
-    display: flex;
-    justify-content: center;
-    height: 370px;
-  }
+.project-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .text4 {
-    font-size: 40px;
-    color: rgb(0, 0, 0);
+.project-media a {
+  text-decoration: none;
+  display: inline-flex;
+  cursor: pointer;
+}
 
-    border: 1px solid #000000; /* Add a 2px solid black border around the text */
-    padding: 20px; /* Add padding inside the box to create space between the text and the border */
-    border-radius: 50px;
-    width: 700px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 6px 6px 1px rgb(0, 0, 0);
-  }
-  .paragraph4{
-    font-size: 20px; 
-    color: rgb(255, 255, 255); 
-    margin-top: 20px;
-    margin-right: 200px;
-    margin-left: 20px;
-  }
-
-  .rectangle4 {
-    background-color: #66277e;
-    padding: 40px;
-    display: flex;
-    align-items: center;
-    padding-bottom: 5%;
-    border: 1px solid black;
-  }
-
-  .SalesforceLogo{
-    max-width: 15%;
-    margin-left: -10%;
-    width: 20%;
-    height: auto;
-    transition: box-shadow 0.3s ease;
-    border: 1px solid #000000;
-    background-color: #f2deff;
-    padding: 20px;
-    border-radius: 50px;
-    box-shadow: 6px 6px 1px rgb(0, 0, 0);
-    }
-
-    .proj5 {
-      display: flex;
-      justify-content: center;
-      height: 370px;
-    }
-  
-    .text5 {
-      font-size: 40px;
-      color: rgb(0, 0, 0);
-  
-      border: 1px solid #000000; /* Add a 2px solid black border around the text */
-      padding: 20px; /* Add padding inside the box to create space between the text and the border */
-      border-radius: 50px;
-      width: 700px;
-      background-color: rgb(255, 255, 255);
-      box-shadow: 6px 6px 1px rgb(0, 0, 0);
-    }
-    .paragraph5{
-      font-size: 20px; 
-      color: rgb(255, 255, 255); 
-      margin-top: 20px;
-      margin-right: 200px;
-      margin-left: 20px;
-    }
-  
-    .rectangle5 {
-      background-color: #2b7170;
-      padding: 40px;
-      display: flex;
-      align-items: center;
-      padding-bottom: 5%;
-      border: 1px solid black;
-    }
-
-
-.GitHubLogo {
-  max-width: 80%;
-  margin-left: -10%;
-  width: 80%;
+.project-image {
+  width: 100%;
   height: auto;
-  transition: box-shadow 0.3s ease;
-  border: 1px solid #000000;
-  background-color: white;
-  padding: 20px;
-  border-radius: 50px;
-  box-shadow: 6px 6px 1px rgb(0, 0, 0);
+  max-height: 180px;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
 
-.proj6 {
-  display: flex;
-  justify-content: center;
-  height: 600px;
+.project-image--icon {
+  max-height: 90px;
+  max-width: 140px;
 }
 
-.text6 {
-  font-size: 40px;
-  color: rgb(0, 0, 0);
-
-  border: 1px solid #000000; /* Add a 2px solid black border around the text */
-  padding: 20px; /* Add padding inside the box to create space between the text and the border */
-  border-radius: 50px;
-  width: 700px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 6px 6px 1px rgb(0, 0, 0);
-}
-.paragraph6{
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-  margin-top: 20px;
-  margin-right: 200px;
-  margin-left: 20px;
+.project-image--github {
+  max-height: 115px;
+  max-width: 165px;
 }
 
-.rectangle6 {
-  background-color: #2b7170;
-  padding: 40px;
+.project-media a:hover .project-image {
+  transform: scale(1.06);
+  box-shadow: 0 0 0 3px var(--color-accent-dark), var(--shadow-md);
+}
+
+.project-emoji {
   display: flex;
   align-items: center;
-  padding-bottom: 5%;
-  border: 1px solid black;
-}
-
-.proj7 {
-  display: flex;
   justify-content: center;
-  height: 400px;
+  width: 120px;
+  height: 120px;
+  font-size: 4.25rem;
+  line-height: 1;
+  background-color: var(--color-surface-alt);
+  border-radius: var(--radius-md);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
 
-.text7 {
-  font-size: 40px;
-  color: rgb(0, 0, 0);
-
-  border: 1px solid #000000; /* Add a 2px solid black border around the text */
-  padding: 20px; /* Add padding inside the box to create space between the text and the border */
-  border-radius: 50px;
-  width: 700px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 6px 6px 1px rgb(0, 0, 0);
-}
-.paragraph7{
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  margin-top: 20px;
-  margin-right: 200px;
-  margin-left: 20px;
+.project-media a:hover .project-emoji {
+  transform: scale(1.08);
+  box-shadow: 0 0 0 3px var(--color-accent-dark), var(--shadow-md);
 }
 
-.rectangle7 {
-  background-color: #b9e1de;
-  padding: 40px;
-  display: flex;
-  align-items: center;
-  padding-bottom: 5%;
-  border: 1px solid black;
-}
+@media (max-width: 700px) {
+  .project-card:has(.project-media) {
+    grid-template-columns: 1fr;
+  }
 
-.proj8 {
-  display: flex;
-  justify-content: center;
-  height: 370px;
-}
-
-.text8 {
-  font-size: 40px;
-  color: rgb(0, 0, 0);
-
-  border: 1px solid #000000; /* Add a 2px solid black border around the text */
-  padding: 20px; /* Add padding inside the box to create space between the text and the border */
-  border-radius: 50px;
-  width: 700px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 6px 6px 1px rgb(0, 0, 0);
-}
-.paragraph8{
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  margin-top: 20px;
-  margin-right: 200px;
-  margin-left: 20px;
-}
-
-.rectangle8 {
-  background-color: #eecdfa;
-  padding: 40px;
-  display: flex;
-  align-items: center;
-  padding-bottom: 5%;
-  border: 1px solid black;
+  .project-media {
+    order: -1;
+  }
 }

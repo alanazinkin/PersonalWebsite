@@ -1,35 +1,66 @@
 .footer {
-  padding: 0;
-  text-align: center;
-  align-items: center;
-  position: relative;
-  bottom: 0;
   width: 100%;
-  height: 10%;
-  background-color: #121619;
+  background-color: var(--color-navy-900);
+  padding: var(--space-lg) var(--space-md);
+  margin-top: var(--space-xl);
 }
 
-.socialMedia svg {
-  color: white;
-  margin: 8px;
-  font-size: 100px;
-  cursor: pointer;
-}
-
-.GitHubLogoFooter {
-  width: 75px;
-  height: auto;
-  margin: 20px;
-  background-color: white;
-  border-radius: 10px;
-}
-
-.footer p {
-  color: white;
+.footer-inner {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-sm);
 }
 
 .footer h3 {
-  font-size: 30px;
-  text-align: center;
-  color: white;
+  font-size: var(--fs-h2);
+  color: var(--color-text-inverse);
+  font-weight: 500;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.socialMedia a,
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-inverse);
+  transition: color var(--transition-base), transform var(--transition-base);
+}
+
+.socialMedia a:hover,
+.icon-button:hover {
+  color: var(--color-accent);
+  transform: translateY(-2px);
+}
+
+.socialMedia svg {
+  font-size: 2rem;
+}
+
+.GitHubLogoFooter {
+  width: 44px;
+  height: 44px;
+  background-color: var(--color-text-inverse);
+  border-radius: 50%;
+  padding: 6px;
+}
+
+.footer p {
+  color: var(--color-text-inverse-muted);
+  font-size: var(--fs-small);
+  margin: 0;
 }

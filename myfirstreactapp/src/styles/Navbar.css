@@ -1,136 +1,150 @@
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   width: 100%;
-  height: 100px;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  border-bottom: .5px solid black;
-
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
 }
 
-.navbar .leftSide {
-  flex: 50%;
-  height: 100%;
+.navbar-inner {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 1.1rem 1.5rem;
   display: flex;
   align-items: center;
-  padding-left: 150px;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
-.navbar .leftSide img {
-  width: 445px;
-  position: absolute;
-  left: 3%;
-  top: .5%;
-}
-
-.navbar .rightSide {
-  flex: 50%;
-  height: 100%;
+.navbar-brand {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-.navbar a {
-  position: relative;
-  color: rgb(0, 0, 0);
   text-decoration: none;
-  margin: 40px;
-  transition: color 0.3s ease; /* Added transition effect for smooth hover */
-
 }
 
-.navbar a::after {
+.navbar-brand img {
+  height: 58px;
+  width: auto;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.navbar-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--color-heading);
+  cursor: pointer;
+  padding: 0.25rem;
+  transition: transform var(--transition-base);
+}
+
+.navbar-toggle:hover {
+  transform: scale(1.18);
+}
+
+.navbar-toggle svg {
+  font-size: 2.2rem;
+}
+
+.navbar-links ul {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  position: relative;
+  display: inline-block;
+  color: var(--color-heading);
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding: 0.6rem 1rem;
+  border-radius: var(--radius-sm);
+  transition: color var(--transition-base), background-color var(--transition-base), transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.navbar-links a:hover {
+  background-color: var(--color-surface-alt);
+  transform: translateY(-4px) scale(1.1);
+  box-shadow: var(--shadow-sm);
+}
+
+.navbar-links a.active {
+  color: var(--color-accent-dark);
+  font-weight: 600;
+}
+
+.navbar-links a.active::after {
   content: '';
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px; /* Adjust the desired thickness of the outline */
-  background-color: rgb(170, 170, 245); /* Color of the outline */
-  transform: scaleX(0); /* Initially hidden */
-  transform-origin: center;
-  transition: transform 0.3s ease;
+  left: 0.9rem;
+  right: 0.9rem;
+  bottom: 0.25rem;
+  height: 2px;
+  background-color: var(--color-accent);
 }
 
-.navbar a:hover::after {
-  transform: scaleX(1); /* Display the outline on hover */
-}
-
-
-.navbar .rightSide button {
-  background-color: transparent;
-  border: none;
-  color: rgb(0, 0, 0);
-  cursor: pointer;
-}
-
-.navbar .rightSide svg {
-  font-size: 50px;
-}
-
-.navbar #open {
-  padding-left: 0px;
-}
-
-
-.navbar #close img {
-  display: inherit;
-}
-
-.navbar #open .hiddenLinks {
-  position: absolute;
-  right: .5rem;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  top: 90px;
-  width: 300px;
-  background: rgba(129, 129, 129, 0.1);
-  backdrop-filter: blur(50px);
-  list-style-type: none;
-  z-index: 2;
-}
-
-.navbar #close .hiddenLinks {
-  display: none;
-}
-
-.navbar #open a {
-  width: 70px;
-  margin: 5px;
-}
-
-@media only screen and (max-width: 900px) {
-  .navbar .rightSide a {
-    width: 70px;
+/* ---------- Mobile ---------- */
+@media (max-width: 860px) {
+  .navbar-brand img {
+    height: 48px;
   }
 
-  .navbar .leftSide {
-    padding-left: 50px;
+  .navbar-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
-}
 
-@media only screen and (max-width: 1150px) {
-  .navbar .rightSide a {
+  .navbar-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: var(--shadow-md);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height var(--transition-base);
+  }
+
+  .navbar-links.is-open {
+    max-height: 400px;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0.5rem 1rem 1rem;
+    gap: 0.25rem;
+  }
+
+  .navbar-links a {
+    width: 100%;
+    padding: 0.75rem 1rem;
+  }
+
+  .navbar-links a:hover {
+    transform: none;
+  }
+
+  .navbar-links a.active::after {
     display: none;
   }
 
-  .navbar .rightSide {
-    justify-content: flex-end;
-    padding-right: 50px;
-  }
-
-  .navbar .rightSide button {
-    display: inherit;
-  }
-}
-
-@media only screen and (min-width: 1150px) {
-  .navbar .rightSide button {
-    display: none;
-  }
-
-  .hiddenLinks {
-    display: none;
+  .navbar-links a.active {
+    background-color: var(--color-surface-alt);
   }
 }

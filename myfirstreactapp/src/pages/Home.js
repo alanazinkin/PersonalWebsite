@@ -2,49 +2,40 @@ import headshot from '../assets/headshotCROPPED.jpg';
 import '../styles/Home.css';
 
 function Home() {
-  return (<div className="home">
-        <div className="headerContainer">
-
-          <img
+  return (
+    <div className="home" id="home">
+      <section className="hero">
+        <div className="hero-inner container">
+          <div className="hero-media">
+            <img
               className="headshot"
               src={headshot}
               alt="Headshot of Alana Zinkin"
-          />
-
-          <div className="box2">
-            <h1>
-              Hey there! I’m Alana Zinkin, a senior at Duke University exploring
-              computer science, innovation, and entrepreneurship. I built this
-              website myself!
-            </h1>
+            />
           </div>
 
-          <p className="p1">
-            I’m passionate about building intuitive, impactful
-            products that solve complex problems. This summer, I’m working as a
-            Product Manager at Capital One, leading efforts to redesign a new
-            two-factor authentication technique to make identity verification more
-            secure and seamless for millions of users.
-          </p>
-
-          <p className="p2">
-            At Duke, I serve as Vice President of the DTech Career Fair,
-            connecting over 300 tech students with industry-leading companies. If you’re
-            interested in participating, I’d love to connect! I am also a Teaching Assistant
-            for Duke’s largest computer science course, Data Structures and
-            Algorithms, where I simplify complex technical concepts through weekly
-            discussion sections and office hours.
-            <br/><br/>
-            Outside of tech, I’m passionate about health care and wellness. As a
-            peer health coach for DukeLine, I provide anonymous, text-based support to Duke
-            students and alumni navigating stress, loneliness, and other challenges.
-            <br/><br/>
-            I'm always looking to meet new people, so please feel free to reach out anytime!
-          </p>
-
-
+          <div className="hero-content">
+            <span className="section-eyebrow">Welcome</span>
+            <h1>
+              Hey there! I'm Alana. I currently work as a Deployment
+              Strategist at Palantir Technologies, where I spend my days
+              tackling complex, high-impact problems. While I'm originally a
+              Long Islander, I now call New York City home.
+            </h1>
+            <p>
+              I love staying active and exploring the city. You can usually
+              find me chasing down food recommendations and ticking off
+              spots from my Beli list, lifting weights, or hiking. To
+              unwind, I'm either catching up on whatever great TV series is
+              currently capturing everyone's attention, or planning the next
+              big adventure with my friends. We most recently traveled to
+              Japan, Bali, and Thailand!
+            </p>
+          </div>
         </div>
-      </div>);
+      </section>
+    </div>
+  );
 }
 
 export default Home;

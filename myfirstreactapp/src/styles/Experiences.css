@@ -1,78 +1,66 @@
-.experienceHeader {
-  background-color: rgb(229, 220, 255);
-  padding-bottom: 5%;
-  position: relative;
+.experiences {
+  background-color: var(--color-bg);
+  padding: var(--space-2xl) 0;
 }
 
-.experience1,
-.experience2,
-.experience3,
-.experience4,
-.experience5 {
+.experiences-title {
+  font-size: var(--fs-hero);
+  color: var(--color-heading);
+  margin-bottom: var(--space-lg);
+}
+
+.experience-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border: 1px solid #000000;
-  border-radius: 50px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 6px 6px 1px rgb(0, 0, 0);
-  transition: box-shadow 0.3s ease;
-  margin: 20px 30px 0 20px;
-  padding: 40px;
-  position: relative;
+  gap: var(--space-lg);
 }
 
-.experience1:hover,
-.experience2:hover,
-.experience3:hover,
-.experience4:hover ,
-.experience5:hover{
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+.experience-card {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: var(--space-lg);
+  align-items: start;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-lg);
+  transition: box-shadow var(--transition-base), transform var(--transition-base);
 }
 
-.text,
-.teachingAssistant,
-.studentConsultant,
-.Deloitte,
-.Palantir,
-.CapitalOne {
-  font-size: 2rem;
-  color: #000000;
+.experience-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
 }
 
-.description1,
-.description2,
-.description3,
-.description4,
-.description5 {
-  font-size: 1.25rem;
-  color: #000000;
-  margin-top: 10px;
-}
-
-.DSVimage {
-  width: 50%;
+.experience-logo {
+  width: 100%;
   height: auto;
-  flex: 1;
+  max-height: 100px;
+  object-fit: contain;
+  align-self: center;
 }
 
-.TALogo {
-  width: 25%;
-  height: auto;
+.experience-role {
+  font-size: var(--fs-h2);
+  color: var(--color-heading);
+  margin-bottom: var(--space-xs);
 }
 
-.DeloitteLogo {
-  width: 30%;
-  height: auto;
+.experience-description {
+  font-size: var(--fs-body);
+  color: var(--color-text-muted);
 }
 
-.PalantirLogo {
-  width: 25%;
-  height: auto;
-}
+@media (max-width: 700px) {
+  .experience-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
 
-.CapitalOneLogo {
-  width: 25%;
-  height: auto;
-  padding-top: 30px;
+  .experience-logo {
+    max-height: 80px;
+    max-width: 140px;
+    margin: 0 auto;
+  }
 }

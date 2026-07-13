@@ -1,11 +1,11 @@
+import './styles/theme.css';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ScrollProgress from './components/ScrollProgress';
+import BackToTop from './components/BackToTop';
 import Home from './pages/Home';
-import {HashRouter as Router, Route, Routes} from 'react-router-dom';
-import './App.css';
 import About from './pages/About';
-import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import Experiences from './pages/Experiences';
 
@@ -13,18 +13,16 @@ import Experiences from './pages/Experiences';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar/>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/FINALresume.pdf" element={<Resume />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/experiences" element={<Experiences />} />
-        </Routes>
-      </Router>
+      <ScrollProgress />
+      <Navbar/>
+      <main className="main-content">
+        <Home />
+        <About />
+        <Experiences />
+        <Projects />
+      </main>
       <Footer/>
-      
+      <BackToTop />
     </div>
   );
 }

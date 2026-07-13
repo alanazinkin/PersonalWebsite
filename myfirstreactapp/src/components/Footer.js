@@ -6,31 +6,33 @@ import GitHubLogo from "../assets/github_logo.png";
 
 function Footer() {
   const emailAddress = 'alana.zinkin@duke.edu';
+  const year = new Date().getFullYear();
 
   const handleEmailClick = () => {
     const mailtoLink = `mailto:${emailAddress}`;
     window.location.href = mailtoLink;
   };
   return (
-    <div className='footer'>
+    <footer className='footer'>
+      <div className='footer-inner'>
         <h3>Let's Connect</h3>
-        <div className = 'socialMedia'>
-        <a href= 'https://www.linkedin.com/in/alana-zinkin-3245b01b1/' target='_blank' rel="noopener noreferrer"> 
+        <div className='socialMedia'>
+          <a href='https://www.linkedin.com/in/alana-zinkin-3245b01b1/' target='_blank' rel="noopener noreferrer" aria-label="LinkedIn">
             <LinkedInIcon/>
-        </a>
+          </a>
 
-        <span onClick={handleEmailClick}>
-          <MailOutlineIcon />
-        </span>
+          <button className="icon-button" onClick={handleEmailClick} aria-label="Email">
+            <MailOutlineIcon />
+          </button>
 
-          <a href="https://github.com/alanazinkin"
-             target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/alanazinkin" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <img className="GitHubLogoFooter" src={GitHubLogo} alt="GitHub logo"/>
           </a>
-        
-        <p>&copy; 2023 alanazinkin.github.io/PersonalWebsite/</p>
         </div>
-    </div>
+
+        <p>&copy; {year} Alana Zinkin</p>
+      </div>
+    </footer>
   )
 }
 

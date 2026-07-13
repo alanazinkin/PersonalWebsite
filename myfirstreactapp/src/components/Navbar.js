@@ -1,41 +1,92 @@
-import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
 import ReorderIcon from '@mui/icons-material/Reorder';
+import CloseIcon from '@mui/icons-material/Close';
 import '../styles/Navbar.css';
 import logo from '../assets/alanazinkinlogo.png';
+import resumePdf from '../assets/Alana_Zinkin_Resume.pdf';
+
+const SECTION_LINKS = [
+  { id: 'home', label: 'Home' },
+  { id: 'about', label: 'About' },
+  { id: 'experiences', label: 'Experiences' },
+  { id: 'projects', label: 'Projects' },
+];
 
 function Navbar() {
-    const [openLinks, setOpenLinks] = useState(false)
-    const toggleNavbar = () => {
-        setOpenLinks(!openLinks)
-    };
+  const [isOpen, setIsOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState('home');
+
+  const toggleNavbar = () => setIsOpen((prev) => !prev);
+  const closeNavbar = () => setIsOpen(false);
+
+  useEffect(() => {
+    const sections = SECTION_LINKS
+      .map((link) => document.getElementById(link.id))
+      .filter(Boolean);
+
+    if (sections.length === 0) return undefined;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      { rootMargin: '-45% 0px -50% 0px', threshold: 0 }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
+  }, []);
 
   return (
-    <div className = 'navbar'>
-        
-        <div className = 'leftSide' id={openLinks ? "open" : "close" }>
-            <img src={logo} alt='unavailable'/>
-            <div className = 'hiddenLinks'>
-                <li><Link to='/'> Home </Link></li>
-                <li><Link to='/about'> About Alana </Link></li>
-                <li><Link to='/projects'> Projects </Link></li>
-                <li><Link to='/experiences'> Experiences </Link></li>
-                <li><Link to='/FINALresume.pdf'> Resume </Link></li>
-            </div>
-            
+    <header className="navbar">
+      <div className="navbar-inner">
+        <a href="#home" className="navbar-brand" onClick={closeNavbar}>
+          <img src={logo} alt="Alana Zinkin logo" />
+        </a>
+
+        <div className="navbar-right">
+          <button
+            className="navbar-toggle"
+            onClick={toggleNavbar}
+            aria-label="Toggle navigation menu"
+            aria-expanded={isOpen}
+          >
+            {isOpen ? <CloseIcon /> : <ReorderIcon />}
+          </button>
+
+          <nav className={`navbar-links ${isOpen ? 'is-open' : ''}`}>
+            <ul>
+              {SECTION_LINKS.map((link) => (
+                <li key={link.id}>
+                  <a
+                    href={`#${link.id}`}
+                    onClick={closeNavbar}
+                    className={activeSection === link.id ? 'active' : ''}
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+              <li>
+                <a
+                  href={resumePdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={closeNavbar}
+                >
+                  Resume
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div className = 'rightSide'>
-            <Link to='/'> Home </Link>
-            <Link to='/about'> About Alana </Link>
-            <Link to='/projects'> Projects </Link>
-            <Link to='/experiences'> Experiences </Link>
-            <Link to='/FINALresume.pdf'> Resume </Link>
-            <button onClick={toggleNavbar}>
-                <ReorderIcon />
-            </button>
-        </div>
-    </div>
-  )
+      </div>
+    </header>
+  );
 }
 
-export default Navbar
+export default Navbar;
